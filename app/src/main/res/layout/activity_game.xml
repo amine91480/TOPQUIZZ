@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amine.amarouche.controller.GameActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/activity_main_game_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="60dp"
+        android:text=" Question ?! "
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/activity_main_reponse1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:text="Réponse 1"/>
+
+    <Button
+        android:id="@+id/activity_main_reponse2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Réponse 2"/>
+
+    <Button
+        android:id="@+id/activity_main_reponse3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Réponse 3"/>
+
+    <Button
+        android:id="@+id/activity_main_reponse4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Réponse 4"/>
+
+
+
+</LinearLayout>
